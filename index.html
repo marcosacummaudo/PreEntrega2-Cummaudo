@@ -3,45 +3,64 @@
 <head>
     <meta charset="UTF-8"> <!-- Estos son caracteres especiales-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helados ROMA</title> <!-- Titulo que se muestra en el navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tag de Viewport -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- CDN de Bootstrap del CSS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  -->
     <link rel="icon" type="image/jpg" sizes="32x32" href="imagenes/Logo1.jpg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body> <!-- USAR ETIQUETA NAV Y MAIN-->
+<body>
     <nav>
-        <a href="index.html" class="nav__a active">Home</a>
-        <a href="sabores.html" class="nav__a">Sabores</a>
-        <a href="historia.html" class="nav__a">Historia</a>
-        <a href="imagenes.html" class="nav__a">Fotos</a>
-        <a href="contacto.html" class="nav__a">Contacto</a>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sabores.html">Sabores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="imagenes.html">Fotos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
     </nav>
-    <main>
-        <h1>Helados ROMA</h1>
-        <section class="index__main__section">
-            <div class="index__main__section__logo">
+    <main class="container">
+        <div class="row">
+            <h1>Helados ROMA</h1>
+        </div>
+        <section class="row">
+            <div class="col-xs-12 col-md-6">
                 <a href="imagenes/Logo1.jpg" target="_blank"><img src="imagenes/Logo1.jpg" alt="" class="imagenRedonda"></a>
             </div>
-            <div class="index__main__section__texto1">
-                <h3 class="index__main__section__texto__h3">Misión:</h3>
-                <p class="index__main__section__texto__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusantium reiciendis necessitatibus aspernatur alias sit facilis quis sequi autem natus minima voluptas quibusdam dolorum, quasi, aperiam repellat impedit adipisci quaerat?</p>
-            </div>
-            <div class="index__main__section__texto2">
-                <h3 class="index__main__section__texto__h3">Visión:</h3>
-                <p class="index__main__section__texto__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut, molestias suscipit ipsum magnam quaerat vitae eum ab molestiae minus saepe repudiandae fugit fugiat illum temporibus quis deleniti officia rem?</p>
-            </div>
-            <div class="index__main__section__texto3">
-                <h3 class="index__main__section__texto__h3">Valores:</h3>
-                <p class="index__main__section__texto__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam cumque non hic nisi qui optio consequatur, molestiae iusto alias obcaecati quidem in! Odio id hic similique veritatis deserunt ipsum!</p>
+            <div class="col-xs-12 col-md-6">
+                <div class="index__main__section__texto1">
+                    <h3 class="index__main__section__texto__h3">Misión:</h3>
+                    <p class="index__main__section__texto__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusantium reiciendis necessitatibus aspernatur alias sit facilis quis sequi autem natus minima voluptas quibusdam dolorum, quasi, aperiam repellat impedit adipisci quaerat?</p>
+                </div>
+                <div class="index__main__section__texto2">
+                    <h3 class="index__main__section__texto__h3">Visión:</h3>
+                    <p class="index__main__section__texto__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut, molestias suscipit ipsum magnam quaerat vitae eum ab molestiae minus saepe repudiandae fugit fugiat illum temporibus quis deleniti officia rem?</p>
+                </div>
+                <div class="index__main__section__texto3">
+                    <h3 class="index__main__section__texto__h3">Valores:</h3>
+                    <p class="index__main__section__texto__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nam cumque non hic nisi qui optio consequatur, molestiae iusto alias obcaecati quidem in! Odio id hic similique veritatis deserunt ipsum!</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer id="pie">
-        <div class="footer__div">Helados ROMA</div>
-        <div class="footer__div">Concordia - Entre Ríos - Argentina</div>
-        <div class="footer__div">Teléfono: 0345 4217711</div>
-        <div class="footer__div">Celular: 3454015523</div>      
+    <footer>
+        <div><strong>Helados ROMA</strong></div>
+        <div>Concordia - Entre Ríos - Argentina</div>
+        <div>Teléfono: 0345 4217711  |   Celular: 3454015523</div>
     </footer>
 </body>
 </html>

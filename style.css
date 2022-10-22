@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    background-color: #1D3557;
+    justify-content: center;
+}
+
+footer div {
+    background-color: #1D3557;
+    text-align: center;
+    color: #F1FAEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
