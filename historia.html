@@ -15,32 +15,59 @@
 </head>
 <body>
     <nav>
-        <a href="index.html" class="nav__a">Home</a>
-        <a href="sabores.html" class="nav__a">Sabores</a>
-        <a href="historia.html" class="nav__a active">Historia</a>
-        <a href="imagenes.html" class="nav__a">Fotos</a>
-        <a href="contacto.html" class="nav__a">Contacto</a>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sabores.html">Sabores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="imagenes.html">Fotos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
     </nav>
-    <main>
-        <h1>Historia</h1>
-        <div class="historia__main">
-            <p  class="historia__main__texto">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ab pariatur, dolores tempora id veniam quidem ratione. Nam nemo ex praesentium doloremque suscipit omnis distinctio esse, expedita labore nihil consectetur.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi asperiores pariatur, dolorem dignissimos nam doloribus, voluptas placeat aut sit ab quas velit quis? Eius ipsam labore illum ullam. Illum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque omnis, possimus ipsum necessitatibus a repellendus nulla sint. Vero velit ut perspiciatis, nihil quaerat nesciunt doloremque sit laboriosam aut minus!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aut perspiciatis iste maiores a optio consequuntur tempora neque fugit quasi soluta dicta laboriosam cumque, inventore, incidunt tempore ut dolore laborum?
-            </p>
-            <a href="imagenes/recorte1.jpg" target="_blank" class="historia__main__fotoV"><img src="imagenes/recorte1.jpg" alt="Recorte 1" class="historia__main__a__foto"></a>
-            <a href="imagenes/recorte2.jpg" target="_blank" class="historia__main__fotoH1"><img src="imagenes/recorte2.jpg" alt="Recorte 2" class="historia__main__a__foto"></a>
-            <a href="imagenes/historia1.jpg" target="_blank" class="historia__main__fotoH2"><img src="imagenes/historia1.jpg" alt="Historia 1" class="historia__main__a__foto"></a>
-            <a href="imagenes/historia2.jpg" target="_blank" class="historia__main__fotoH3"><img src="imagenes/historia2.jpg" alt="Historia 2" class="historia__main__a__foto"></a>
+    <main class="container">
+        <div class="row div__h1">
+            <h1>Historia</h1>
         </div>
+        <section class="row">
+            <div class="col-xs-12 col-md-6">
+                <p  class="historia__main__texto">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ab pariatur, dolores tempora id veniam quidem ratione. Nam nemo ex praesentium doloremque suscipit omnis distinctio esse, expedita labore nihil consectetur.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi asperiores pariatur, dolorem dignissimos nam doloribus, voluptas placeat aut sit ab quas velit quis? Eius ipsam labore illum ullam. Illum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque omnis, possimus ipsum necessitatibus a repellendus nulla sint. Vero velit ut perspiciatis, nihil quaerat nesciunt doloremque sit laboriosam aut minus!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aut perspiciatis iste maiores a optio consequuntur tempora neque fugit quasi soluta dicta laboriosam cumque, inventore, incidunt tempore ut dolore laborum?
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="historia__main">
+                    <div class="historia__main__fotoV">
+                        <a href="imagenes/recorte1.jpg" target="_blank"><img src="imagenes/recorte1.jpg" alt="Recorte 1" class="historia__main__a__foto"></a>
+                    </div>
+                    <div class="historia__main__fotoH1">
+                        <a href="imagenes/recorte2.jpg" target="_blank"><img src="imagenes/recorte2.jpg" alt="Recorte 2" class="historia__main__a__foto"></a>
+                    </div>
+                    <div class="historia__main__fotoH2">
+                        <a href="imagenes/historia1.jpg" target="_blank"><img src="imagenes/historia1.jpg" alt="Historia 1" class="historia__main__a__foto"></a>
+                    </div>
+                    <div class="historia__main__fotoH3">
+                        <a href="imagenes/historia2.jpg" target="_blank"><img src="imagenes/historia2.jpg" alt="Historia 2" class="historia__main__a__foto"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer id="pie">
-        <div class="footer__div">Helados ROMA</div>
-        <div class="footer__div">Concordia - Entre Ríos - Argentina</div>
-        <div class="footer__div">Teléfono: 0345 4217711</div>
-        <div class="footer__div">Celular: 3454015523</div>       
+    <footer>
+        <div><strong>Helados ROMA</strong></div>
+        <div>Concordia - Entre Ríos - Argentina</div>
+        <div>Teléfono: 0345 4217711  |  Celular: 3454015523</div>
     </footer>
 </body>
 </html>

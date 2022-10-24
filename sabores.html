@@ -15,18 +15,32 @@
 </head>
 <body>
     <nav>
-        <a href="index.html" class="nav__a">Home</a>
-        <a href="sabores.html" class="nav__a active">Sabores</a>
-        <a href="historia.html" class="nav__a">Historia</a>
-        <a href="imagenes.html" class="nav__a">Fotos</a>
-        <a href="contacto.html" class="nav__a">Contacto</a>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="sabores.html">Sabores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="imagenes.html">Fotos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
     </nav>
-    <main>
-        <h1>Sabores</h1>
-        <section class="sabores__section">
-            <div class="sabores__section__div">
+    <main class="container">
+        <div class="row div__h1">
+            <h1>Sabores</h1>
+        </div>
+        <section class="row">
+            <div class="col-xs-12 col-md-6 col-lg-3">
                 <h3 class="sabores__section__div__h3">Cremas Clasicas y Especiales:</h3>
-                <ul class="sabores__section__div__h3__ul">
+                <ul>
                     <li>Chantilly:
                         <p class="sabores__section__div__h3__ul__p">Crema, pero con nuestra tradicional receta.</p>
                     </li>
@@ -62,9 +76,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="sabores__section__div">
+            <div class="col-xs-12 col-md-6 col-lg-3">
                 <h3 class="sabores__section__div__h3">Chocolates:</h3>
-                <ul class="sabores__section__div__h3__ul"> <!--Lista NO Ordenada-->
+                <ul>
                     <li>Chocolate:
                         <p class="sabores__section__div__h3__ul__p">El mejor y más seleccionado cacao hecho helado.</p>
                     </li>
@@ -78,10 +92,8 @@
                         <p class="sabores__section__div__h3__ul__p">Nuestro chocolate con una selección de nueces, trozos de chocolates semi amargo y un toque de rhum.</p>
                     </li>
                 </ul>
-            </div>
-            <div class="sabores__section__div">
                 <h3 class="sabores__section__div__h3">Dulce de Leches:</h3>
-                <ul class="sabores__section__div__h3__ul"> <!--Lista NO Ordenada-->
+                <ul>
                     <li>Dulce de Leche:
                         <p class="sabores__section__div__h3__ul__p">Un clásico de la gastronomía argentina en su mejor version, la que elaboramos desde 1984.</p>
                     </li>
@@ -96,9 +108,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="sabores__section__div">
+            <div class="col-xs-12 col-md-6 col-lg-3">
                 <h3 class="sabores__section__div__h3">Frutas a la Crema:</h3>
-                <ul class="sabores__section__div__h3__ul"> <!--Lista NO Ordenada-->
+                <ul>
                     <li>Frutilla a la Crema:
                         <p class="sabores__section__div__h3__ul__p">Riquísimas pulpas de frutillas heladas.</p>
                     </li>
@@ -116,9 +128,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="sabores__section__div">
+            <div class="col-xs-12 col-md-6 col-lg-3">
                 <h3 class="sabores__section__div__h3">Frutas al Agua:</h3>
-                <ul class="sabores__section__div__h3__ul"> <!--Lista NO Ordenada-->
+                <ul>
                     <li>Frutilla:
                         <p class="sabores__section__div__h3__ul__p">Las más ricas frutillas hechas helado.</p>
                     </li>
@@ -150,11 +162,10 @@
             </div>
         </section>
     </main>
-    <footer id="pie">
-        <div class="footer__div">Helados ROMA</div>
-        <div class="footer__div">Concordia - Entre Ríos - Argentina</div>
-        <div class="footer__div">Teléfono: 0345 4217711</div>
-        <div class="footer__div">Celular: 3454015523</div>     
+    <footer>
+        <div><strong>Helados ROMA</strong></div>
+        <div>Concordia - Entre Ríos - Argentina</div>
+        <div>Teléfono: 0345 4217711  |  Celular: 3454015523</div>
     </footer>
 </body>
 </html>
