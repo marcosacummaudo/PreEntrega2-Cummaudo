@@ -37,6 +37,28 @@ h1 {
     width: 100%;
 }
 
+/* Animacion Logo */
+
+.rotar-logo:hover {
+    animation-name: rotar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotar {
+    0%   {opacity: 1; transform: rotate(0deg);}
+    10%   {opacity: 0.9; transform: rotate(45deg);}
+    20%   {opacity: 0.7; transform: rotate(90deg);}
+    35%   {opacity: 0.6; transform: rotate(135deg);}
+    50%   {opacity: 0.5; transform: rotate(180deg);}
+    65%   {opacity: 0.6; transform: rotate(225deg);}
+    80%   {opacity: 0.7; transform: rotate(270deg);}
+    90%   {opacity: 0.9; transform: rotate(315deg);}
+    100%   {opacity: 1; transform: rotate(360deg);}
+}
+
+/* Fin Animacion Logo */
+
 .index__main__section__texto__h3 {
     font-size: 30px;
     color: #1D3557;
@@ -55,6 +77,12 @@ h1 {
     color: #1D3557;
 }
 
+.sabores__section__div__ul__li {
+    padding-left: 5px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
 .sabores__section__div__h3__ul__p {
     color: #1D3557;
     font-size: 15px;
@@ -64,6 +92,7 @@ h1 {
     color: #1D3557;
     font-size: 20px;
     text-align: justify;
+    padding: 10px;
 }
 
 .historia__main__a__foto {
@@ -143,6 +172,11 @@ h1 {
     padding: 15px;
     width: 100%;
     text-align: center;
+}
+
+.contacto__mapas:hover {
+    scale: 110%;
+    opacity: 0.8;
 }
 
 .contacto__section__div2__ul {
