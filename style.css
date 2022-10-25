@@ -48,11 +48,11 @@ h1 {
 @keyframes rotar {
     0%   {opacity: 1; transform: rotate(0deg);}
     10%   {opacity: 0.9; transform: rotate(45deg);}
-    20%   {opacity: 0.7; transform: rotate(90deg);}
-    35%   {opacity: 0.6; transform: rotate(135deg);}
-    50%   {opacity: 0.5; transform: rotate(180deg);}
-    65%   {opacity: 0.6; transform: rotate(225deg);}
-    80%   {opacity: 0.7; transform: rotate(270deg);}
+    20%   {opacity: 0.7; transform: rotate(90deg); scale: 110%;}
+    35%   {opacity: 0.6; transform: rotate(135deg); scale: 110%;}
+    50%   {opacity: 0.5; transform: rotate(180deg); scale: 110%;}
+    65%   {opacity: 0.6; transform: rotate(225deg); scale: 110%;}
+    80%   {opacity: 0.7; transform: rotate(270deg); scale: 110%;}
     90%   {opacity: 0.9; transform: rotate(315deg);}
     100%   {opacity: 1; transform: rotate(360deg);}
 }
@@ -87,6 +87,28 @@ h1 {
     color: #1D3557;
     font-size: 15px;
 }
+
+/* Animacion Sabores */
+
+.resaltar-sabores:hover {
+    animation-name: resaltar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes resaltar {
+    0%   {opacity: 1;}
+    10%   {opacity: 0.9; scale: 101%;}
+    20%   {opacity: 0.8; scale: 102%;}
+    35%   {opacity: 0.7; scale: 103%;}
+    50%   {opacity: 0.6; scale: 105%;}
+    65%   {opacity: 0.7; scale: 103%;}
+    80%   {opacity: 0.8; scale: 102%;}
+    90%   {opacity: 0.9; scale: 101%;}
+    100%   {opacity: 1;}
+}
+
+/* Fin Animacion Sabores */
 
 .historia__main__texto {
     color: #1D3557;
