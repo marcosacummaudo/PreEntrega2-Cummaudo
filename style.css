@@ -191,10 +191,9 @@ h1 {
 }
 
 .contacto__mapas {
-    border-radius: 30px;
-    padding: 15px;
+    border-radius: 25px;
+    padding: 10px;
     width: 100%;
-    text-align: center;
 }
 
 .contacto__mapas:hover {
@@ -203,12 +202,12 @@ h1 {
 }
 
 .contacto__section__div2__ul {
-    font-size: 20px;
+    font-size: 25px;
     list-style-type: none;
 }
 
 .contacto__section__div2__ul__ul {
-    font-size: 15px;
+    font-size: 18px;
     list-style-type: circle;
     padding-left: 15px;
 }
@@ -236,13 +235,17 @@ h1 {
 .contacto__main__div__texto1 {
     grid-area: texto1;
     justify-self: center;
-    align-self: center;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .contacto__main__div__texto2 {
     grid-area: texto2;
     justify-self: center;
-    align-self: center;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .contacto__main__div__mapa1 {
