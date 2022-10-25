@@ -48,11 +48,11 @@ h1 {
 @keyframes rotar {
     0%   {opacity: 1; transform: rotate(0deg);}
     10%   {opacity: 0.9; transform: rotate(45deg);}
-    20%   {opacity: 0.7; transform: rotate(90deg); scale: 110%;}
-    35%   {opacity: 0.6; transform: rotate(135deg); scale: 110%;}
-    50%   {opacity: 0.5; transform: rotate(180deg); scale: 110%;}
-    65%   {opacity: 0.6; transform: rotate(225deg); scale: 110%;}
-    80%   {opacity: 0.7; transform: rotate(270deg); scale: 110%;}
+    20%   {opacity: 0.7; transform: rotate(90deg); scale: 95%;}
+    35%   {opacity: 0.6; transform: rotate(135deg); scale: 92%;}
+    50%   {opacity: 0.5; transform: rotate(180deg); scale: 90%;}
+    65%   {opacity: 0.6; transform: rotate(225deg); scale: 92%;}
+    80%   {opacity: 0.7; transform: rotate(270deg); scale: 95%;}
     90%   {opacity: 0.9; transform: rotate(315deg);}
     100%   {opacity: 1; transform: rotate(360deg);}
 }
