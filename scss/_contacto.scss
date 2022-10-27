@@ -1,0 +1,75 @@
+@import 'variables';
+
+.contacto__mapas {
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contacto__mapas:hover {
+    scale: 110%;
+    opacity: 0.8;
+}
+
+.contacto__section__div2__ul {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.contacto__section__div2__ul__ul {
+    font-size: 18px;
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+.contacto__main__div {
+    display: grid;
+    grid-template-areas:
+    "texto1"
+    "mapa1"
+    "texto2"
+    "mapa2";
+    grid-gap: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .contacto__main__div {
+    display: grid;
+    grid-template-areas:
+        "texto1 mapa1"
+        "texto2 mapa2";
+    grid-gap: 10px;
+    }
+}
+
+.contacto__main__div__texto1 {
+    grid-area: texto1;
+    justify-self: center;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.contacto__main__div__texto2 {
+    grid-area: texto2;
+    justify-self: center;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.contacto__main__div__mapa1 {
+    grid-area: mapa1;
+    justify-self: center;
+    align-self: center;
+}
+
+.contacto__main__div__mapa2 {
+    grid-area: mapa2;
+    justify-self: center;
+    align-self: center;
+}
+
+.contacto__main__div__form {
+    padding: 0px 30px 0px 30px;
+}

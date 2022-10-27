@@ -1,0 +1,63 @@
+@import 'variables';
+
+.historia__main__texto {
+    color: $azul-mio;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.historia__main__a__foto {
+    border-radius: 30px;
+    width: 250px;
+}
+
+.historia__main__a__foto:hover {
+    scale: 105%;
+    opacity: 0.8;
+}
+
+.historia__main {
+    display: grid;
+    grid-template-areas:
+    "fotoV"
+    "fotoH1"
+    "fotoH2"
+    "fotoH3";
+    grid-gap: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .historia__main {
+    display: grid;
+    grid-template-areas:
+        "fotoV fotoH1"
+        "fotoV fotoH2"
+        "fotoH3 fotoH3";
+    grid-gap: 10px;
+    }
+}
+
+.historia__main__fotoV {
+    grid-area: fotoV;
+    justify-self: center;
+    align-self: center;
+}
+
+.historia__main__fotoH1 {
+    grid-area: fotoH1;
+    justify-self: center;
+    align-self: center;
+}
+
+.historia__main__fotoH2 {
+    grid-area: fotoH2;
+    justify-self: center;
+    align-self: center;
+}
+
+.historia__main__fotoH3 {
+    grid-area: fotoH3;
+    justify-self: center;
+    align-self: center;
+}
