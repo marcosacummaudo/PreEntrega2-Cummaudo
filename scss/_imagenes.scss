@@ -7,8 +7,8 @@
 }
 
 .imagenes__div__tamFotos__a:hover {
-    scale: 110%;
-    opacity: 0.8;
+    scale: map-get($efectoImagen, escala);
+    opacity: map-get($efectoImagen, opaco);
 }
 
 .imagenes__div__centrar {

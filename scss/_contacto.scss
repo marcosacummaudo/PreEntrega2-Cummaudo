@@ -7,8 +7,8 @@
 }
 
 .contacto__mapas:hover {
-    scale: 110%;
-    opacity: 0.8;
+    scale: map-get($efectoImagen, escala);
+    opacity: map-get($efectoImagen, opaco);
 }
 
 .contacto__section__div2__ul {

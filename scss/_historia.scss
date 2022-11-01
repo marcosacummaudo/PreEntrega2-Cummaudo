@@ -13,8 +13,8 @@
 }
 
 .historia__main__a__foto:hover {
-    scale: 105%;
-    opacity: 0.8;
+    scale: map-get($efectoImagen, escala);
+    opacity: map-get($efectoImagen, opaco);
 }
 
 .historia__main {
