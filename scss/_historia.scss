@@ -44,20 +44,10 @@
     align-self: center;
 }
 
-.historia__main__fotoH1 {
-    grid-area: fotoH1;
-    justify-self: center;
-    align-self: center;
-}
-
-.historia__main__fotoH2 {
-    grid-area: fotoH2;
-    justify-self: center;
-    align-self: center;
-}
-
-.historia__main__fotoH3 {
-    grid-area: fotoH3;
-    justify-self: center;
-    align-self: center;
+@for $i from 1 through 3 {
+	.historia__main__fotoH#{$i}{
+        grid-area: fotoH#{$i};
+        justify-self: center;
+        align-self: center;
+	}
 }
