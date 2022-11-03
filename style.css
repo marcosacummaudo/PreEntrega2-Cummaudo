@@ -20,10 +20,9 @@
 .historia__main__a__foto {
   border-radius: 30px;
   width: 250px; }
-
-.historia__main__a__foto:hover {
-  scale: 105%;
-  opacity: 0.8; }
+  .historia__main__a__foto:hover {
+    scale: 105%;
+    opacity: 0.8; }
 
 .historia__main {
   display: grid;
@@ -60,10 +59,9 @@
   border-radius: 50px;
   padding: 25px;
   width: 250px; }
-
-.imagenes__div__tamFotos__a:hover {
-  scale: 105%;
-  opacity: 0.8; }
+  .imagenes__div__tamFotos__a:hover {
+    scale: 105%;
+    opacity: 0.8; }
 
 .imagenes__div__centrar {
   justify-content: center; }
@@ -72,10 +70,9 @@
   border-radius: 25px;
   padding: 10px;
   width: 100%; }
-
-.contacto__mapas:hover {
-  scale: 105%;
-  opacity: 0.8; }
+  .contacto__mapas:hover {
+    scale: 105%;
+    opacity: 0.8; }
 
 .contacto__section__div2__ul {
   font-size: 25px;
@@ -140,12 +137,11 @@ nav ul {
 footer {
   margin-top: auto;
   padding-top: 3vh; }
-
-footer div {
-  background-color: #1D3557;
-  text-align: center;
-  color: #F1FAEE;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  footer div {
+    background-color: #1D3557;
+    text-align: center;
+    color: #F1FAEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 h1 {
   color: #1D3557; }

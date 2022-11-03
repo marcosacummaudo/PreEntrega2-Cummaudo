@@ -4,11 +4,10 @@
     border-radius: 25px;
     padding: 10px;
     width: 100%;
-}
-
-.contacto__mapas:hover {
-    scale: map-get($efectoImagen, escala);
-    opacity: map-get($efectoImagen, opaco);
+    &:hover {
+        scale: map-get($efectoImagen, escala);
+        opacity: map-get($efectoImagen, opaco);
+    }
 }
 
 .contacto__section__div2__ul {

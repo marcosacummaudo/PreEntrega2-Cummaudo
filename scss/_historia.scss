@@ -10,11 +10,10 @@
 .historia__main__a__foto {
     border-radius: 30px;
     width: 250px;
-}
-
-.historia__main__a__foto:hover {
-    scale: map-get($efectoImagen, escala);
-    opacity: map-get($efectoImagen, opaco);
+    &:hover {
+        scale: map-get($efectoImagen, escala);
+        opacity: map-get($efectoImagen, opaco);
+    }
 }
 
 .historia__main {
