@@ -46,6 +46,12 @@ h1 {
     width: 100%;
 }
 
+.index__main__section__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Animacion Logo */
 
 .rotar-logo:hover {
