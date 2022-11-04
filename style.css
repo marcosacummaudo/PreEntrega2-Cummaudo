@@ -9,7 +9,8 @@
 
 .sabores__section__div__h3__ul__p {
   color: #1D3557;
-  font-size: 15px; }
+  font-size: 15px;
+  text-align: justify; }
 
 .historia__main__texto {
   color: #1D3557;
@@ -76,23 +77,32 @@
 
 .contacto__section__div2__ul {
   font-size: 25px;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: justify; }
 
 .contacto__section__div2__ul__ul {
   font-size: 18px;
   list-style-type: circle;
-  padding-left: 15px; }
+  padding-left: 15px;
+  text-align: justify; }
+
+.contacto__main__section__div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .contacto__main__div {
   display: grid;
   grid-template-areas: "texto1" "mapa1" "texto2" "mapa2";
-  grid-gap: 10px; }
+  grid-column-gap: 10px;
+  grid-row-gap: 20px; }
 
 @media only screen and (min-width: 1024px) {
   .contacto__main__div {
     display: grid;
     grid-template-areas: "texto1 mapa1" "texto2 mapa2";
-    grid-gap: 10px; } }
+    grid-column-gap: 10px;
+    grid-row-gap: 30px; } }
 
 .contacto__main__div__texto1 {
   grid-area: texto1;
@@ -119,7 +129,10 @@
   align-self: center; }
 
 .contacto__main__div__form {
-  padding: 0px 30px 0px 30px; }
+  padding: 15px 40px 15px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 * {
   margin: 0;
@@ -212,10 +225,12 @@ h1 {
   text-align: justify; }
 
 /* Animacion Texto */
-.resaltar-texto:hover {
-  animation-name: resaltar;
-  animation-duration: 1s;
-  animation-iteration-count: 1; }
+.resaltar-texto {
+  padding: 10px 20px 10px 20px; }
+  .resaltar-texto:hover {
+    animation-name: resaltar;
+    animation-duration: 1s;
+    animation-iteration-count: 1; }
 
 @keyframes resaltar {
   0% {

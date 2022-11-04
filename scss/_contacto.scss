@@ -13,12 +13,20 @@
 .contacto__section__div2__ul {
     font-size: 25px;
     list-style-type: none;
+    text-align: justify;
 }
 
 .contacto__section__div2__ul__ul {
     font-size: 18px;
     list-style-type: circle;
     padding-left: 15px;
+    text-align: justify;
+}
+
+.contacto__main__section__div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contacto__main__div {
@@ -28,7 +36,8 @@
     "mapa1"
     "texto2"
     "mapa2";
-    grid-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -37,7 +46,8 @@
     grid-template-areas:
         "texto1 mapa1"
         "texto2 mapa2";
-    grid-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
     }
 }
 
@@ -60,5 +70,8 @@
 }
 
 .contacto__main__div__form {
-    padding: 0px 30px 0px 30px;
+    padding: 15px 40px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
