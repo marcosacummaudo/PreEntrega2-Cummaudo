@@ -1,5 +1,5 @@
 Hola! Bienvenido al proyecto de Marcos Cummaudo para CoderHouse.
-Este proyecto fue creado para cumplir las entregas de mi curso.
+Este proyecto fue creado en base al negocio de mi familia "Helados ROMA", para cumplir las entregas de mi curso.
 En el transcurso del mismo fuimos viendo diferentes temas, como por ejemplo:
 
 HTML: Manejo de etiquetas, saltos de página, estructura y maquetado.
