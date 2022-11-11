@@ -13,11 +13,38 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: $blanco;
 }
 
-nav ul {
+.color__button {
+    border: 1px solid $blanco;
+}
+
+.color__button__span {
+    background-image: url("assets/list.svg");
+}
+
+nav {
     background-color: $azul-mio;
-    justify-content: center;
+    a {
+        margin: 0;
+        padding: 0;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.nav__div__centrar {
+    justify-content: space-evenly;
+    margin-right: 56px;
+}
+
+.active {
+    color: $blanco;
 }
 
 footer {
@@ -113,13 +140,40 @@ h1 {
 
 /* Inicio Carrucel */
 
-.carousel-inner img {
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.carousel-inner__item {
     width: 100%;
     height: 100%;
 }
 
-.index__main__carrucel__a {
-    color: $blanco;
+.index__main__carrucel {
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 540px) {
+    .index__main__carrucel {
+        height: 350px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .index__main__carrucel {
+        height: 550px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
 }
 
 /* Fin Carrucel */

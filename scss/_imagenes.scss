@@ -4,6 +4,7 @@
     border-radius: 50px;
     padding: 25px;
     width: 250px;
+    height: 380px;
     &:hover {
         scale: map-get($efectoImagen, escala);
         opacity: map-get($efectoImagen, opaco);

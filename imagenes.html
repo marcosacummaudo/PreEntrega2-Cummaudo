@@ -7,33 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Tag de Viewport -->
     <meta name="description" content="Imágenes de nuestro trabajo.">
     <meta name="keywords"  content="Helados, Heladeria, Roma, Sabores, Gustos">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- CDN de Bootstrap del CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  -->
     <link rel="icon" type="image/jpg" sizes="32x32" href="imagenes/Logo1.jpg">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sabores.html">Sabores</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="imagenes.html">Fotos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md">
+        <div class="container nav__div__centrado">
+            <a class="navbar-brand" href="index.html"><img class="imagenRedonda" src="imagenes/Logo1.jpg" alt="Logo Home"></a>
+            <button class="navbar-toggler nav__button color__button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon color__button__span"></span>
+            </button>
+            <div class="collapse navbar-collapse nav__div__centrar" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="sabores.html">Sabores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="imagenes.html">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <main class="container">
         <div class="row div__h1">
@@ -57,6 +65,36 @@
             </div>
             <div>
                 <a href="imagenes/HELADERIA ROMA(15).png" target="_blank"><img src="imagenes/HELADERIA ROMA(15).png" alt="Helado" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/conservadoravisor2.jpg" target="_blank"><img src="imagenes/conservadoravisor2.jpg" alt="Conservadora Visor" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/heladovasito1.jpg" target="_blank"><img src="imagenes/heladovasito1.jpg" alt="Helado en vasito" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/interior.jpg" target="_blank"><img src="imagenes/interior.jpg" alt="Interior Heladeria" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/capelina.jpg" target="_blank"><img src="imagenes/capelina.jpg" alt="Capelina" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/decknenas2.jpg" target="_blank"><img src="imagenes/decknenas2.jpg" alt="Deck nenas" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/deckgente1.jpg" target="_blank"><img src="imagenes/deckgente1.jpg" alt="Deck gente" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/maquina1.jpg" target="_blank"><img src="imagenes/maquina1.jpg" alt="Maquina" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/nenasfondo.jpg" target="_blank"><img src="imagenes/nenasfondo.jpg" alt="Nenas fondo" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/heladofondo.jpg" target="_blank"><img src="imagenes/heladofondo.jpg" alt="Helado fondo" class="imagenes__div__tamFotos__a"></a>
+            </div>
+            <div>
+                <a href="imagenes/chocolatesuizo2.jpg" target="_blank"><img src="imagenes/chocolatesuizo2.jpg" alt="Chocolate Suizo" class="imagenes__div__tamFotos__a"></a>
             </div>
         </div>
     </main>
