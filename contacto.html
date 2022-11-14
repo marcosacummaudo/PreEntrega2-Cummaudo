@@ -21,7 +21,7 @@
 <body>
     <nav class="navbar navbar-expand-md">
         <div class="container nav__div__centrado">
-            <a class="navbar-brand" href="index.html"><img class="imagenRedonda" src="imagenes/Logo1.jpg" alt="Logo Home"></a>
+            <a class="navbar-brand" href="index.html"><img class="imagenRedonda rotar-logo" src="imagenes/Logo1.jpg" alt="Logo Home"></a>
             <button class="navbar-toggler nav__button color__button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon color__button__span"></span>
             </button>
@@ -43,44 +43,42 @@
             </div>
         </div>
     </nav>
+    <!-- Boton Fixed Inicio -->
+    <div class="container-fluid button__fixed">
+        <a href="https://www.instagram.com/heladeriaroma_/?hl=es" target="_blank">
+            <button type="button" class="btn btn-primary button__fixed__button"><img src="assets/instagram1.svg" alt="InstagramFixed"></button>
+        </a>
+    </div>
+    <!-- Boton Fixed Fin -->
     <main class="container">
         <div class="row div__h1">
-            <h1>Contacto</h1>
+            <h1>Sucursales</h1>
         </div>
         <section class="row">
             <div class="col-xs-12 col-md-6 contacto__main__section__div1">
-                <div class="contacto__main__div">
-                    <div class="contacto__main__div__texto1">
-                        <ul class="contacto__section__div2__ul">
-                            <li>Casa Central: 1° de Mayo e Hipólito Yrigoyen.</li>
-                            <li>Horarios:
-                                <ul class="contacto__section__div2__ul__ul">
-                                    <li>Lunes a Jueves: 08:00 a 23:00</li>
-                                    <li>Viernes a Domingo: 09:00 a 02:00</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="contacto__main__div__texto2">
-                        <ul class="contacto__section__div2__ul">
-                            <li>Peatonal: Entre Rios y Alberdi.</li>
-                            <li>Horarios:
-                                <ul class="contacto__section__div2__ul__ul">
-                                    <li>Lunes a Jueves: 08:00 a 23:00</li>
-                                    <li>Viernes a Domingo: 09:00 a 02:00</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="contacto__main__div__mapa1">
-                        <a href="https://goo.gl/maps/EBVGJKBKEKuy4U3R8" target="_blank"><img src="imagenes/MapaCasaCentral.jpg" alt="MapaCasaCentral" class="contacto__mapas"></a>
-                    </div>
-                    <div class="contacto__main__div__mapa2">
-                        <a href="https://goo.gl/maps/MuCxkJa752WSgXvAA" target="_blank"><img src="imagenes/MapaPeatonal.jpg" alt="MapaPeatonal" class="contacto__mapas"></a>
+                <div class="card" style="width:400px">
+                    <img class="card-img-top contacto__main__div__card__img" src="imagenes/CasaCentral-card.png" alt="Card CasaCentral" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Casa Central</h4>
+                        <p class="card-text">1° de Mayo e Hipólito Yrigoyen</p>
+                        <a href="https://goo.gl/maps/EBVGJKBKEKuy4U3R8" target="_blank" class="btn btn-primary stretched-link boton">Ver ubicación <img src="assets/map-pin.svg" alt="IconoMaps"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-6 contacto__main__div__form">
+            <div class="col-xs-12 col-md-6 contacto__main__section__div1">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top contacto__main__div__card__img" src="imagenes/Peatonal-card.png" alt="Card Peatonal" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Peatonal</h4>
+                        <p class="card-text">Entre Rios y Alberdi</p>
+                        <a href="https://goo.gl/maps/MuCxkJa752WSgXvAA" target="_blank" class="btn btn-primary stretched-link boton">Ver ubicación <img src="assets/map-pin.svg" alt="IconoMaps"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 div__h1 division">
+                <h1>Contacto</h1>
+            </div>
+            <div class="col-12 contacto__main__div__form">
                 <form>
                     <div class="form-group">
                     <label for="exampleFormControlInput1">Nombre</label>
@@ -115,9 +113,26 @@
         </section>
     </main>
     <footer>
-        <div><strong>Helados ROMA</strong></div>
-        <div>Concordia - Entre Ríos - Argentina</div>
-        <div>Teléfono: 0345 4217711  |  Celular: 3454015523</div>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="sabores.html" class="nav-link px-2 text-muted">Sabores</a></li>
+            <li class="nav-item"><a href="historia.html" class="nav-link px-2 text-muted">Historia</a></li>
+            <li class="nav-item"><a href="imagenes.html" class="nav-link px-2 text-muted">Fotos</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted footer__activo">Contacto</a></li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <p class="text-center text-muted">Teléfono: 0345 4217711 | Celular: 3454015523</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <p class="text-center text-muted"><strong>© 2022 Helados Roma</strong></p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <a href="https://www.instagram.com/heladeriaroma_/?hl=es" target="_blank"><p class="text-center text-muted"><img src="assets/instagram.svg" alt="instagram"> ¡Seguinos!</p></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

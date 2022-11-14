@@ -21,7 +21,7 @@
 <body>
     <nav class="navbar navbar-expand-md">
         <div class="container nav__div__centrado">
-            <a class="navbar-brand" href="index.html"><img class="imagenRedonda" src="imagenes/Logo1.jpg" alt="Logo Home"></a>
+            <a class="navbar-brand" href="index.html"><img class="imagenRedonda rotar-logo" src="imagenes/Logo1.jpg" alt="Logo Home"></a>
             <button class="navbar-toggler nav__button color__button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon color__button__span"></span>
             </button>
@@ -43,6 +43,13 @@
             </div>
         </div>
     </nav>
+    <!-- Boton Fixed Inicio -->
+    <div class="container-fluid button__fixed">
+        <a href="https://www.instagram.com/heladeriaroma_/?hl=es" target="_blank">
+            <button type="button" class="btn btn-primary button__fixed__button"><img src="assets/instagram1.svg" alt="InstagramFixed"></button>
+        </a>
+    </div>
+    <!-- Boton Fixed Fin -->
     <main class="container">
         <div class="row div__h1">
             <h1>Historia</h1>
@@ -75,9 +82,26 @@
         </section>
     </main>
     <footer>
-        <div><strong>Helados ROMA</strong></div>
-        <div>Concordia - Entre Ríos - Argentina</div>
-        <div>Teléfono: 0345 4217711  |  Celular: 3454015523</div>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="sabores.html" class="nav-link px-2 text-muted">Sabores</a></li>
+            <li class="nav-item"><a href="historia.html" class="nav-link px-2 text-muted footer__activo">Historia</a></li>
+            <li class="nav-item"><a href="imagenes.html" class="nav-link px-2 text-muted">Fotos</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <p class="text-center text-muted">Teléfono: 0345 4217711 | Celular: 3454015523</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <p class="text-center text-muted"><strong>© 2022 Helados Roma</strong></p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <a href="https://www.instagram.com/heladeriaroma_/?hl=es" target="_blank"><p class="text-center text-muted"><img src="assets/instagram.svg" alt="instagram"> ¡Seguinos!</p></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
