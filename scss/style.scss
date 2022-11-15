@@ -40,6 +40,9 @@ nav {
     li {
         padding-left: 10px;
         padding-right: 10px;
+        a {
+            color: $blanco;
+        }
     }
 }
 
@@ -70,12 +73,21 @@ nav {
 }
 
 .active {
-    color: $blanco;
+    color: #a8dadc;
+    font-weight: bold;
 }
 
 footer {
     margin-top: 20px;
     background-color: $azul-mio;
+    a {
+        color: $blanco;
+        font-size: 15px;
+    }
+    p {
+        color: $blanco;
+        font-size: 15px;
+    }
 }
 
 .footer__activo {

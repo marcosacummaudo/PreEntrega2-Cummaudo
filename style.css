@@ -129,6 +129,8 @@ nav {
   nav li {
     padding-left: 10px;
     padding-right: 10px; }
+    nav li a {
+      color: #F1FAEE; }
 
 .nav__div__centrar {
   justify-content: center;
@@ -152,11 +154,18 @@ nav {
   padding: 6px; }
 
 .active {
-  color: #F1FAEE; }
+  color: #a8dadc;
+  font-weight: bold; }
 
 footer {
   margin-top: 20px;
   background-color: #1D3557; }
+  footer a {
+    color: #F1FAEE;
+    font-size: 15px; }
+  footer p {
+    color: #F1FAEE;
+    font-size: 15px; }
 
 .footer__activo {
   text-decoration: underline;
