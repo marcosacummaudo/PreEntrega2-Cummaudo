@@ -131,7 +131,7 @@ nav {
     padding-right: 10px; }
 
 .nav__div__centrar {
-  justify-content: space-evenly;
+  justify-content: center;
   margin-right: 56px; }
 
 .button__fixed {
