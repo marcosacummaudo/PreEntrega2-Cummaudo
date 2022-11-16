@@ -6,11 +6,10 @@
   padding-left: 5px;
   font-size: 20px;
   list-style-type: none; }
-
-.sabores__section__div__h3__ul__p {
-  color: #1D3557;
-  font-size: 15px;
-  text-align: justify; }
+  .sabores__section__div__ul__li p {
+    color: #1D3557;
+    font-size: 15px;
+    text-align: justify; }
 
 .section__div {
   margin: 0px;
@@ -147,12 +146,11 @@ nav {
     top: 45vh;
     display: block;
     margin: 0%;
-    padding: 0%; } }
-
-.button__fixed__button {
-  background-color: #1D3557;
-  padding: 6px;
-  border: #F1FAEE; }
+    padding: 0%; }
+    .button__fixed button {
+      background-color: #1D3557;
+      padding: 6px;
+      border: #F1FAEE; } }
 
 .active {
   color: #a8dadc;
@@ -187,8 +185,17 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .index__main__section__texto h3 {
+    font-size: 30px;
+    color: #1D3557;
+    text-decoration: underline;
+    text-align: center; }
+  .index__main__section__texto p {
+    font-size: 20px;
+    color: #1D3557;
+    text-align: center; }
 
-/* Animacion Logo */
+/* Inicio Animacion Logo */
 .rotar-logo:hover {
   animation-name: rotar;
   animation-duration: 1s;
@@ -229,18 +236,7 @@ h1 {
     transform: rotate(360deg); } }
 
 /* Fin Animacion Logo */
-.index__main__section__texto__h3 {
-  font-size: 30px;
-  color: #1D3557;
-  text-decoration: underline;
-  text-align: center; }
-
-.index__main__section__texto__p {
-  font-size: 20px;
-  color: #1D3557;
-  text-align: justify; }
-
-/* Animacion Texto */
+/* Inicio Animacion Texto */
 .resaltar-texto {
   padding: 10px 20px 10px 20px; }
   .resaltar-texto:hover {
@@ -295,14 +291,10 @@ h1 {
 
 @media only screen and (min-width: 540px) {
   .index__main__carrucel {
-    height: 350px;
-    margin-top: 0px;
-    margin-bottom: 30px; } }
+    height: 350px; } }
 
 @media only screen and (min-width: 768px) {
   .index__main__carrucel {
-    height: 550px;
-    margin-top: 0px;
-    margin-bottom: 30px; } }
+    height: 550px; } }
 
 /* Fin Carrucel */

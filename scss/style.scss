@@ -64,13 +64,12 @@ nav {
         display: block;
         margin: 0%;
         padding: 0%;
+        button {
+            background-color: $azul-mio;
+            padding: 6px;
+            border: $blanco;
+        }
     }
-}
-
-.button__fixed__button {
-    background-color: $azul-mio;
-    padding: 6px;
-    border: $blanco;
 }
 
 .active {
@@ -114,9 +113,21 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    h3 {
+        font-size: 30px;
+        color: $azul-mio;
+        text-decoration: underline;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+        color: $azul-mio;
+        // text-align: justify;
+        text-align: center;
+    }
 }
 
-/* Animacion Logo */
+/* Inicio Animacion Logo */
 
 .rotar-logo:hover {
     animation-name: rotar;
@@ -138,20 +149,7 @@ h1 {
 
 /* Fin Animacion Logo */
 
-.index__main__section__texto__h3 {
-    font-size: 30px;
-    color: $azul-mio;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.index__main__section__texto__p {
-    font-size: 20px;
-    color: $azul-mio;
-    text-align: justify;
-}
-
-/* Animacion Texto */
+/* Inicio Animacion Texto */
 
 .resaltar-texto {
     padding: 10px 20px 10px 20px;
@@ -201,16 +199,12 @@ h1 {
 @media only screen and (min-width: 540px) {
     .index__main__carrucel {
         height: 350px;
-        margin-top: 0px;
-        margin-bottom: 30px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .index__main__carrucel {
         height: 550px;
-        margin-top: 0px;
-        margin-bottom: 30px;
     }
 }
 
