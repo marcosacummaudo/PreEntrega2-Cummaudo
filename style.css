@@ -151,7 +151,8 @@ nav {
 
 .button__fixed__button {
   background-color: #1D3557;
-  padding: 6px; }
+  padding: 6px;
+  border: #F1FAEE; }
 
 .active {
   color: #a8dadc;

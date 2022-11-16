@@ -70,10 +70,11 @@ nav {
 .button__fixed__button {
     background-color: $azul-mio;
     padding: 6px;
+    border: $blanco;
 }
 
 .active {
-    color: #a8dadc;
+    color: $celeste;
     font-weight: bold;
 }
 
