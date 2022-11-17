@@ -1,18 +1,19 @@
 @import 'variables';
 
-.sabores__section__div__h3 {
-    text-decoration: underline;
-    color: $azul-mio;
-}
-
-.sabores__section__div__ul__li {
-    padding-left: 5px;
-    font-size: 20px;
-    list-style-type: none;
-    p {
+.sabores__section__div {
+    h3 {
+        text-decoration: underline;
         color: $azul-mio;
-        font-size: 15px;
-        text-align: justify;
+    }
+    li {
+        padding-left: 5px;
+        font-size: 20px;
+        list-style-type: none;
+        p {
+            color: $azul-mio;
+            font-size: 15px;
+            text-align: justify;
+        }
     }
 }
 

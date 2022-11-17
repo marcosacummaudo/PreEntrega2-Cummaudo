@@ -7,15 +7,6 @@
     padding: 10px;
 }
 
-.historia__main__a__foto {
-    border-radius: 30px;
-    width: 250px;
-    &:hover {
-        scale: map-get($efectoImagen, escala);
-        opacity: map-get($efectoImagen, opaco);
-    }
-}
-
 .historia__main {
     display: grid;
     grid-template-areas:
@@ -24,6 +15,14 @@
     "fotoH2"
     "fotoH3";
     grid-gap: 10px;
+    img {
+        border-radius: 30px;
+        width: 250px;
+        &:hover {
+            scale: map-get($efectoImagen, escala);
+            opacity: map-get($efectoImagen, opaco);
+        }
+    }
 }
 
 @media only screen and (min-width: 1024px) {
