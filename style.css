@@ -145,9 +145,11 @@
 
 @media only screen and (min-width: 992px) {
   .index__main__section {
-    grid-template-areas: "titulo1 texto1 texto1" "texto2 texto2 titulo2" "titulo3 texto3 texto3";
-    grid-gap: 0px;
     grid-template-rows: 160px 160px 160px; } }
+
+@media only screen and (min-width: 1200px) {
+  .index__main__section {
+    grid-template-rows: 140px 140px 140px; } }
 
 .index__main__section__titulo1 {
   grid-area: titulo1;
