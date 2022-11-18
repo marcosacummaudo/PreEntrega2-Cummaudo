@@ -7,17 +7,27 @@
     padding: 10px;
 }
 
+.historia__centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        max-height: 350px;
+        max-width: 250px;
+    }
+}
+
 .historia__main {
     display: grid;
     grid-template-areas:
-    "fotoV"
-    "fotoH1"
-    "fotoH2"
-    "fotoH3";
+    "foto1"
+    "foto2";
     grid-gap: 10px;
+    padding-bottom: 10px;
     img {
         border-radius: 30px;
-        width: 250px;
+        width: 100%;
         &:hover {
             scale: map-get($efectoImagen, escala);
             opacity: map-get($efectoImagen, opaco);
@@ -25,26 +35,24 @@
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
     .historia__main {
     display: grid;
     grid-template-areas:
-        "fotoV fotoH1"
-        "fotoV fotoH2"
-        "fotoH3 fotoH3";
-    grid-gap: 10px;
+        "foto1 foto2";
+    grid-gap: 20px;
     }
 }
 
-.historia__main__fotoV {
-    grid-area: fotoV;
-    justify-self: center;
-    align-self: center;
+@media only screen and (min-width: 768px) {
+    .historia__main {
+        padding-bottom: 0px;
+    }
 }
 
-@for $i from 1 through 3 {
-	.historia__main__fotoH#{$i}{
-        grid-area: fotoH#{$i};
+@for $i from 1 through 2 {
+	.historia__main__foto#{$i}{
+        grid-area: foto#{$i};
         justify-self: center;
         align-self: center;
 	}
