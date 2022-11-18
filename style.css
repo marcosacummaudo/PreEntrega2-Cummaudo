@@ -137,11 +137,17 @@
   width: 100%;
   justify-items: center; }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .index__main__section {
     grid-template-areas: "titulo1 texto1 texto1" "texto2 texto2 titulo2" "titulo3 texto3 texto3";
     grid-gap: 0px;
     grid-template-rows: 140px 140px 140px; } }
+
+@media only screen and (min-width: 992px) {
+  .index__main__section {
+    grid-template-areas: "titulo1 texto1 texto1" "texto2 texto2 titulo2" "titulo3 texto3 texto3";
+    grid-gap: 0px;
+    grid-template-rows: 160px 160px 160px; } }
 
 .index__main__section__titulo1 {
   grid-area: titulo1;
@@ -183,7 +189,7 @@
     font-size: 40px;
     margin: 0px; }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .index__main__section__titulo1 {
     grid-area: titulo1;
     width: 170px; }
@@ -240,7 +246,7 @@
     font-size: 15px;
     margin: 0px; }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .index__main__section__texto1 {
     grid-area: texto1;
     border-left: solid #CAE9FF;

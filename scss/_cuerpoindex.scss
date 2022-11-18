@@ -51,7 +51,8 @@
     justify-items: center;
 }
 
-@media only screen and (min-width: 1200px) {
+// @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
     .index__main__section {
         grid-template-areas:
         "titulo1 texto1 texto1"
@@ -59,6 +60,17 @@
         "titulo3 texto3 texto3";
         grid-gap: 0px;
         grid-template-rows: 140px 140px 140px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .index__main__section {
+        grid-template-areas:
+        "titulo1 texto1 texto1"
+        "texto2 texto2 titulo2"
+        "titulo3 texto3 texto3";
+        grid-gap: 0px;
+        grid-template-rows: 160px 160px 160px;
     }
 }
 
@@ -82,7 +94,7 @@
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
     @for $i from 1 through 3 {
         .index__main__section__titulo#{$i}{
             grid-area: titulo#{$i};
@@ -116,7 +128,7 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
     @for $i from 1 through 3 {
         .index__main__section__texto#{$i}{
             grid-area: texto#{$i};
