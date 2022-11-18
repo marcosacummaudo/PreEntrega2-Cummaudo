@@ -1,15 +1,18 @@
 .sabores__section__div h3 {
   text-decoration: underline;
-  color: #1B4965; }
+  color: #1B4965;
+  margin-bottom: 0px; }
 
 .sabores__section__div li {
-  padding-left: 5px;
+  padding: 5px;
   font-size: 20px;
-  list-style-type: none; }
+  list-style-type: none;
+  background-color: #F1FAEE; }
   .sabores__section__div li p {
     color: #1B4965;
     font-size: 15px;
-    text-align: justify; }
+    text-align: justify;
+    margin-bottom: 0px; }
 
 .section__div {
   margin: 0px;
@@ -96,193 +99,6 @@
   font-size: 15px;
   background-color: #1B4965; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #F1FAEE; }
-
-.color__button {
-  border: 1px solid #F1FAEE; }
-
-.color__button__span {
-  background-image: url("assets/list.svg"); }
-
-nav {
-  background-color: #1B4965; }
-  nav a {
-    margin: 0;
-    padding: 0;
-    font-size: 20px; }
-  nav img {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    padding: 0; }
-  nav li {
-    padding-left: 10px;
-    padding-right: 10px; }
-    nav li a {
-      color: #F1FAEE; }
-
-.nav__div__centrar {
-  justify-content: center;
-  margin-right: 56px; }
-
-.button__fixed {
-  position: fixed;
-  top: 45vh;
-  display: none; }
-
-@media only screen and (min-width: 1200px) {
-  .button__fixed {
-    position: fixed;
-    top: 45vh;
-    display: block;
-    margin: 0%;
-    padding: 0%; }
-    .button__fixed button {
-      background-color: #1B4965;
-      padding: 6px;
-      border: #F1FAEE; } }
-
-.active {
-  color: #CAE9FF;
-  font-weight: bold; }
-
-footer {
-  margin-top: 20px;
-  background-color: #1B4965; }
-  footer a {
-    color: #F1FAEE;
-    font-size: 15px; }
-  footer p {
-    color: #F1FAEE;
-    font-size: 15px; }
-
-.footer__activo {
-  text-decoration: underline;
-  font-weight: bold; }
-
-h1 {
-  color: #1B4965; }
-
-.div__h1 {
-  justify-content: center;
-  text-align: center; }
-
-.imagenRedonda {
-  border-radius: 100%;
-  width: 100%; }
-
-/* Inicio Animacion Logo */
-.rotar-logo:hover {
-  animation-name: rotar;
-  animation-duration: 1s;
-  animation-iteration-count: 1; }
-
-@keyframes rotar {
-  0% {
-    opacity: 1;
-    transform: rotate(0deg); }
-  10% {
-    opacity: 0.9;
-    transform: rotate(45deg); }
-  20% {
-    opacity: 0.7;
-    transform: rotate(90deg);
-    scale: 95%; }
-  35% {
-    opacity: 0.6;
-    transform: rotate(135deg);
-    scale: 92%; }
-  50% {
-    opacity: 0.5;
-    transform: rotate(180deg);
-    scale: 90%; }
-  65% {
-    opacity: 0.6;
-    transform: rotate(225deg);
-    scale: 92%; }
-  80% {
-    opacity: 0.7;
-    transform: rotate(270deg);
-    scale: 95%; }
-  90% {
-    opacity: 0.9;
-    transform: rotate(315deg); }
-  100% {
-    opacity: 1;
-    transform: rotate(360deg); } }
-
-/* Fin Animacion Logo */
-/* Inicio Animacion Texto */
-.resaltar-texto {
-  padding: 10px 20px 10px 20px; }
-  .resaltar-texto:hover {
-    animation-name: resaltar;
-    animation-duration: 1s;
-    animation-iteration-count: 1; }
-
-@keyframes resaltar {
-  0% {
-    opacity: 1; }
-  10% {
-    opacity: 0.9;
-    scale: 101%; }
-  20% {
-    opacity: 0.8;
-    scale: 102%; }
-  35% {
-    opacity: 0.7;
-    scale: 103%; }
-  50% {
-    opacity: 0.6;
-    scale: 105%; }
-  65% {
-    opacity: 0.7;
-    scale: 103%; }
-  80% {
-    opacity: 0.8;
-    scale: 102%; }
-  90% {
-    opacity: 0.9;
-    scale: 101%; }
-  100% {
-    opacity: 1; } }
-
-/* Fin Animacion Texto */
-/* Inicio Carrucel */
-.carousel-inner {
-  width: 100%;
-  height: 100%; }
-  .carousel-inner img {
-    width: 100%;
-    height: 100%; }
-
-.carousel-inner__item {
-  width: 100%;
-  height: 100%; }
-
-.index__main__carrucel {
-  height: 200px;
-  margin-top: 0px;
-  margin-bottom: 30px; }
-
-@media only screen and (min-width: 540px) {
-  .index__main__carrucel {
-    height: 300px; } }
-
-@media only screen and (min-width: 768px) {
-  .index__main__carrucel {
-    height: 450px; } }
-
-/* Fin Carrucel */
-/* Inicio Cuerpo Index */
 .index__main__section__logo {
   display: flex;
   flex-direction: row;
@@ -441,4 +257,187 @@ h1 {
     padding-left: 20px;
     text-align: justify; } }
 
-/* Fin Cuerpo Index */
+.carousel-inner {
+  width: 100%;
+  height: 100%; }
+  .carousel-inner img {
+    width: 100%;
+    height: 100%; }
+
+.carousel-inner__item {
+  width: 100%;
+  height: 100%; }
+
+.index__main__carrucel {
+  height: 200px;
+  margin-top: 0px;
+  margin-bottom: 30px; }
+
+@media only screen and (min-width: 540px) {
+  .index__main__carrucel {
+    height: 300px; } }
+
+@media only screen and (min-width: 768px) {
+  .index__main__carrucel {
+    height: 450px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F1FAEE; }
+
+.color__button {
+  border: 1px solid #F1FAEE; }
+
+.color__button__span {
+  background-image: url("assets/list.svg"); }
+
+nav {
+  background-color: #1B4965; }
+  nav a {
+    margin: 0;
+    padding: 0;
+    font-size: 20px; }
+  nav img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0; }
+  nav li {
+    padding-left: 10px;
+    padding-right: 10px; }
+    nav li a {
+      color: #F1FAEE; }
+
+.nav__div__centrar {
+  justify-content: center;
+  margin-right: 56px; }
+
+.button__fixed {
+  position: fixed;
+  top: 45vh;
+  display: none; }
+
+@media only screen and (min-width: 1200px) {
+  .button__fixed {
+    position: fixed;
+    top: 45vh;
+    display: block;
+    margin: 0%;
+    padding: 0%; }
+    .button__fixed button {
+      background-color: #1B4965;
+      padding: 6px;
+      border: #F1FAEE; } }
+
+.active {
+  color: #CAE9FF;
+  font-weight: bold; }
+
+footer {
+  margin-top: 20px;
+  background-color: #1B4965; }
+  footer a {
+    color: #F1FAEE;
+    font-size: 15px; }
+  footer p {
+    color: #F1FAEE;
+    font-size: 15px; }
+
+.footer__activo {
+  text-decoration: underline;
+  font-weight: bold; }
+
+h1 {
+  color: #1B4965; }
+
+.div__h1 {
+  justify-content: center;
+  text-align: center; }
+
+.imagenRedonda {
+  border-radius: 100%;
+  width: 100%; }
+
+/* Inicio Animacion Logo */
+.rotar-logo:hover {
+  animation-name: rotar;
+  animation-duration: 1s;
+  animation-iteration-count: 1; }
+
+@keyframes rotar {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg); }
+  10% {
+    opacity: 0.9;
+    transform: rotate(45deg); }
+  20% {
+    opacity: 0.7;
+    transform: rotate(90deg);
+    scale: 95%; }
+  35% {
+    opacity: 0.6;
+    transform: rotate(135deg);
+    scale: 92%; }
+  50% {
+    opacity: 0.5;
+    transform: rotate(180deg);
+    scale: 90%; }
+  65% {
+    opacity: 0.6;
+    transform: rotate(225deg);
+    scale: 92%; }
+  80% {
+    opacity: 0.7;
+    transform: rotate(270deg);
+    scale: 95%; }
+  90% {
+    opacity: 0.9;
+    transform: rotate(315deg); }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg); } }
+
+/* Fin Animacion Logo */
+/* Inicio Animacion Texto */
+.resaltar-texto {
+  padding: 10px 10px 10px 10px; }
+  .resaltar-texto:hover {
+    animation-name: resaltar;
+    animation-duration: 1s;
+    animation-iteration-count: 1; }
+
+@keyframes resaltar {
+  0% {
+    opacity: 1; }
+  10% {
+    opacity: 0.9;
+    scale: 101%; }
+  20% {
+    opacity: 0.8;
+    scale: 102%; }
+  35% {
+    opacity: 0.7;
+    scale: 103%; }
+  50% {
+    opacity: 0.6;
+    scale: 105%; }
+  65% {
+    opacity: 0.7;
+    scale: 103%; }
+  80% {
+    opacity: 0.8;
+    scale: 102%; }
+  90% {
+    opacity: 0.9;
+    scale: 101%; }
+  100% {
+    opacity: 1; } }
+
+/* Fin Animacion Texto */

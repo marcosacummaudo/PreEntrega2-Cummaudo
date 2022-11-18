@@ -1,0 +1,33 @@
+@import 'variables';
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.carousel-inner__item {
+    width: 100%;
+    height: 100%;
+}
+
+.index__main__carrucel {
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 540px) {
+    .index__main__carrucel {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .index__main__carrucel {
+        height: 450px;
+    }
+}
